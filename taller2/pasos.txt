@@ -1,0 +1,6 @@
+1. Clonar el repositorio con: git clone https://github.com/hrodriguezgi/computacion_fisica_taller2.git
+2. Crear una nueva rama con: git checkout -b anagiraldov18
+3. Crear este archivo con los pasos realizados.
+4. Añadir el archivo a git con: git add pasos.txt
+5. Realizar un commit con: git commit -m "Añadiendo pasos para el PR"
+6. Subir la rama al repositorio remoto con: git push origin anagiraldov18
