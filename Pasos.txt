@@ -1,0 +1,16 @@
+
+git clone https://github.com/hrodriguezgi/computacion_fisica_taller2
+
+git checkout -b afiglesiasr
+
+touch Pasos.txt
+
+vim Pasos.txt
+
+git add .
+
+git commit -m "se creo Pasos.txt"
+
+git push --set-upstream origin afiglesiasr
+
+-entrar a git y y crear un pull request pidiendo unir afiglesiasr a main
