@@ -1,0 +1,12 @@
+1) git clone url para clonar el repositorio remoto
+2)Entrar en el repositorio de manera que ya te aparezca que estas en el main
+3)git checkout -b nombre_rama este para crear la rama en la que vamos a trabajar
+4)touch nombre_archivo para crear el archivo
+5)vim nombre_archivo para entrar en el archivo y escribir en él(recordar presionar i antes de escribir)
+6) esc+:+w+q: con el fin de salir del archivo de manera que en este quede la informacion que esditamos
+7)git add . para agregar y cambiarle el estado a los cambios realizados
+8) git commit -m "mensaje" para guardar los cambios realizados
+9)git push --set-upstream para subir la rama al repositorio remoto
+10)pull request para subir el archivo al repositorio de otro, este permite mandarlo y que se apruebe antes de fucionarlo con la rama principal
+
+gracias profe,tiqm
