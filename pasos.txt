@@ -1,0 +1,4 @@
+git clone https://github.com/hrodriguezgi/computacion_fisica_taller2.git
+git checkout -b manugs27
+vim pasos.txt
+
