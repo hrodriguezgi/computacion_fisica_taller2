@@ -2,3 +2,4 @@ git clone https://github.com/hrodriguezgi/computacion_fisica_taller2.gitgit chec
 vim taller_2.txt
 git add
 git commit -m "done"
+
