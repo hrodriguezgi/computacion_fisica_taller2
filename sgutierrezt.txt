@@ -1,0 +1,6 @@
+Indicar al profesor su usuario de Github (esto puede ser en el momento de ir en el paso del pull request)
+Clonar el repositorio en sus máquinas locales.
+Crear una rama con el nombre de su usuario de linux (ej: hrodriguez)
+Crear un archivo de texto con los pasos que se deben realizar desde la clonación del repositorio hasta la creación del PR.
+Subir el archivo de texto al repositorio
+Crear el pull request para llevar los cambios de la rama creada a la rama testingÑ
