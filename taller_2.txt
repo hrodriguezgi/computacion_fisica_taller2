@@ -1,0 +1,9 @@
+Holi
+-git clone url: para copiar el repositorio 
+-git checkout -b hbaudp: para crear la rama
+-vim nombredeltaller.txt: para crear el archivo y editarlo
+-Editarlo
+-git add .: para zona segura 
+-git commit -m "Lo que se hizo": para "guardar"
+-git push --set-upstream origin hbaudp: enviar el cambio al repositorio
+ 
