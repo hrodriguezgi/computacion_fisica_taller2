@@ -1,0 +1,7 @@
+tutorial~! como descargar, modificar y subir un archivo a git?
+
+primero lo primero. Escribimos el comando "git clone " seguido de la url para descargar una copia del archivo de git. 
+luego, de forma preferible se hace una ramificacion con el comando "git chekout -b " seguido del nombre que le desees poner, estopara realizar modificaciones de forma mas segura, separando del archivo original temporalmente lo que se este modificando. 
+ya en esta rama recien creada se pueden realizar todas las modificaciones deseadas del archivo, pudiendo usar el "git diff main "nombre de la rama"" para ver los cambios que se han hecho con relacion al main, y siempre recordando usar el "git add" para mezclar la informacion y el "git commit -b " seguido de un comentario para confirmar la actualizacion del archivo, siendo que si te encuentras inseguro del que falte algo, puedes usar el "git status" para que git te diga si te falta algun git commit o git add.
+ya con todos los cambios acabados, puedes usar "git merge "origen(nombre de la rama)" "destino(main)" " para combinar las ramas, o si estas trabajando para un colaborador, puedes usar "git push --set-upstream "carpeta de destino" "su nombre de usuario de github"" para mandar una push request si eres colaborador, o hacer directamente el cambio si tienes permisos de administrador, sin olvidar que el pull request debe ser terminado de confirmar por medio de la pagina web de github.
+fin like y sub 
