@@ -1,0 +1,26 @@
+Primero se clona el repositorio:
+$ git clone https://github.com/hrodriguezgi/computacion_fisica_taller2.git
+
+Se ve que este al dia 
+$ git pull
+
+Creo y me paso a la rama
+$ git checkout -b sagarcias
+
+Hago las modificaciones requeridas
+
+reviso estado del programa con
+$ git status
+
+Guardo todas las modificaciones
+$ git add .:
+
+reviso otra vez con 
+$ git status
+
+Hago commit
+$ git commit -m "Cambios hechos"
+
+Envio a git con 
+$ git push --set-upstream testing sagarcias
+
