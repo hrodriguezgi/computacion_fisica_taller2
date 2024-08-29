@@ -1,0 +1,22 @@
+
+1. Lo primero que se debe realizar es clonar el repositorio que está en Github, para esto se usaria el siguiente comando que consiste en la insrucción y el link
+## git clone https://github.com/hrodriguezgi/computacion_fisica_taller2.git ##
+
+2. Luego tengo que ingresar a este repositorio lo que me lleva directamente a la rama main, que fue la que yo cloné
+
+3. Crear una nueva rama en la cual yo voy a hacer los cambios, para esto se usa el siguiente comando
+## git checkout -b fgomezf ##
+
+4. hacemos los cambios que queramos
+
+5. Añadimos los documentos o cambios que queramos guardar a la sección de stage (preparación)
+## git add . ##
+
+6. Confirmamos o guardamos los cambios utilizando commit para que ya quede realizado el cambio en la rama, y agregar la descripción que tendrá el commit
+## git commit -m "---"
+
+7. Enviar los datos al repositorio en la nuve
+## git push --set-upstream origin nombre_rama
+
+8. Crar el pull_request o merge_request con la rama que queremos que quede con los cambios que hicimos, esto se hace desde el repositorio en la nube, que en este caso está en Github.
+
