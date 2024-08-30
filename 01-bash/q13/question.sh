@@ -8,3 +8,13 @@
 ## 
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
+#
+
+get_number_wins() {
+  team="$1"
+  wins=$(grep -c "$team" soccer_scores.csv)
+  echo "$wins"
+}
+
+get_number_wins Etar
+
