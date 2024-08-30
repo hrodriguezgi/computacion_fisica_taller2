@@ -8,3 +8,11 @@
 ## 
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
+
+def upload_to_cloud(output_dir):
+    # Recorre todos los archivos en el directorio output_dir
+    for filename in os.listdir(output_dir):
+        # Verifica si 'results' está en el nombre del archivo
+        if 'results' in filename:
+            # Imprime el mensaje para cada archivo
+            print(f"uploading {filename} to cloud")

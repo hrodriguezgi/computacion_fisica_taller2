@@ -5,4 +5,5 @@
 ##  Cuantas personas nacieron en el trimestre Q1 del año?
 ## 
 ##  >>> Escriba su codigo a partir de este punto <<<
-grep -e 01 -e 02 -e 03 person | cat -n
+cut -d',' -f6 person | cut -d"-" -f2 | grep -E '^(01|02|03)$' | cat -n | wc -l
+
