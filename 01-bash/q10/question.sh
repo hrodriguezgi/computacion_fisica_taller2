@@ -9,10 +9,15 @@
 ##  >>> Escriba su codigo a partir de este punto <<<
 ##
 
-def upload_to_cloud(output_dir):
-    # Recorre todos los archivos en el directorio output_dir
-    for filename in os.listdir(output_dir):
-        # Verifica si 'results' está en el nombre del archivo
-        if 'results' in filename:
-            # Imprime el mensaje para cada archivo
-            print(f"uploading {filename} to cloud")
+upload_to_cloud() {
+    # Directorio que contiene los archivos
+    local output_dir="output_dir/"
+
+    # Recorrer los archivos en el directorio que contienen 'results' en el nombre
+    for file in "$output_dir"results; do
+        # Verificar si el archivo realmente existe
+        if [ -f "$file" ]; then
+            echo "uploading $(basename "$file") to cloud"
+        fi
+    done
+}

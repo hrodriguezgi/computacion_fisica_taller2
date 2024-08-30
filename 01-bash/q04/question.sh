@@ -6,4 +6,4 @@
 ##  registros con 'city' = 'Arlington (Texas)'?
 ## 
 ##  >>> Escriba su codigo a partir de est
-tail -n +2 person | cut -d',' -f3 | grep -v 'Arlington (Texas)' | wc -l
+tail -n +2 person | cut -d',' -f3 | grep -v 'Arlington (Texas)' | grep -c .
