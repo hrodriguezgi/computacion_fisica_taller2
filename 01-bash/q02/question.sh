@@ -7,4 +7,4 @@
 ##  >>> Escriba su codigo a partir de este punto <<<
 
 
-cut -d ',' -f 2 data.csv | tail -n -1 | tr -d '"'
+tail -n +2 data.csv | grep -c ','

@@ -1,4 +1,4 @@
-##
+#!/bin/bash
 ##  Gestion de datos con BASH
 ##  ===========================================================================
 ##
@@ -7,5 +7,5 @@
 ## 
 ##  >>> Escriba su codigo a partir de este punto <<<
 
+tail -n +2 person | grep -v 'Albuquerque (New Mexico)' | grep -c ','
 
-tr -d 23231332

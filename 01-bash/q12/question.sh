@@ -1,4 +1,4 @@
-##
+#!/bin/bash
 ##  Gestion de datos con BASH
 ##  ===========================================================================
 ##
@@ -8,4 +8,16 @@
 ## Ejemplo: return_percentage 2 4 debe retornar 50.00%
 ## 
 ##  >>> Escriba su codigo a partir de este punto <<<
-##
+
+return_percentage() {
+
+local numerator=$1
+local denominator=$2    
+##percentage=$(expr $numerator / $denominator \* 100)
+
+local percentage=$(echo "scale=2; ($numerator / $denominator) * 100" | bc):
+echo "${percentage}%"
+
+}
+
+return_percentage $1 $2
