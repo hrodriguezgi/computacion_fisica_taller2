@@ -1,0 +1,16 @@
+#primeramente se toma el repositorio de git utilizando 
+git clone <url del repositorio>
+#despues, se crea el brach con 
+git checkout -b aguacates 
+#Esto nos permite crear el branch con el repositorio ya listo dentro de aguacates 
+#Se crea el archivo pasos con 
+vim pasos 
+#Se escriben los pasos a realizar para el trabajo (deja vu)
+#Realizamos un 
+git add
+#luego 
+git commit -m "que viva linux!!"
+#y finalmente, pidiendo al profe que nos ceda acceso al repositorio
+git push origin aguacates 
+#para actualizar el repositorio en el link original
+
