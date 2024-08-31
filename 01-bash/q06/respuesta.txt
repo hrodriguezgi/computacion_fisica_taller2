@@ -1,0 +1,5 @@
+#!/bin/bash
+
+input_file="cards.txt"
+
+grep '3608-2596-5551-1068' "$input_file" | cut -d',' -
