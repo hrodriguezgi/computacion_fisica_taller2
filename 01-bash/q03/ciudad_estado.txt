@@ -1,0 +1,2 @@
+"Chicago (Illinois)"sort -t, -k1,1 person > sorted_person.txt
+"Chicago (Illinois)"sed -n '3p' sorted_person.txt > line3.txt
