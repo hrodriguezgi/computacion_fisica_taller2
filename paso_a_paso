@@ -1,0 +1,9 @@
+1. Abrí la terminal linux con Ubuntu 24.04 LTS
+2. busqué la página de github que contenía los archivos del taller 2
+3. escribí en la terminal git clone https://github.com/hrodriguezgi/computacion_fisica_taller2 para que creara una copia del repositorio en mi computador
+4. entré con cd a la carpeta generada del comando git clone
+5. escribí git checkout -b srivera para crear una rama que me permita editar el trabajo sin afectar el original
+6. creé este archivo con touch paso_a_paso y luego lo edité con vim paso_a_paso
+A continuación haré lo siguiente para subir el archivo al repositorio
+7. Escribiré los comandos requeridos para subir el repositorio, el git add, el git commit y el git push
+8. Haré el pull request desde github
